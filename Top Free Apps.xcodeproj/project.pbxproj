@@ -8,20 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		225B15DB21D3D19C009D1E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15DA21D3D19C009D1E17 /* AppDelegate.swift */; };
-		225B15DD21D3D19C009D1E17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15DC21D3D19C009D1E17 /* ViewController.swift */; };
 		225B15E021D3D19C009D1E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225B15DE21D3D19C009D1E17 /* Main.storyboard */; };
 		225B15E221D3D19E009D1E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225B15E121D3D19E009D1E17 /* Assets.xcassets */; };
 		225B15E521D3D19E009D1E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225B15E321D3D19E009D1E17 /* LaunchScreen.storyboard */; };
+		225B15F121D3DA77009D1E17 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 225B15EF21D3DA77009D1E17 /* Reachability.m */; };
+		225B15F921D4A3A7009D1E17 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15F321D4A3A7009D1E17 /* Extentions.swift */; };
+		225B15FA21D4A3A7009D1E17 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15F421D4A3A7009D1E17 /* AppStoryboard.swift */; };
+		225B15FB21D4A3A7009D1E17 /* GradiantColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15F521D4A3A7009D1E17 /* GradiantColor.swift */; };
+		225B15FD21D4A3A7009D1E17 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15F721D4A3A7009D1E17 /* Tool.swift */; };
+		225B15FE21D4A3A7009D1E17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B15F821D4A3A7009D1E17 /* Constants.swift */; };
+		225B160621D4A4A2009D1E17 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B160521D4A4A2009D1E17 /* APIManager.swift */; };
+		225B160A21D4A94B009D1E17 /* vcHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B160921D4A94B009D1E17 /* vcHome.swift */; };
+		225B160C21D4AA25009D1E17 /* xibTopFreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225B160B21D4AA25009D1E17 /* xibTopFreeCell.xib */; };
+		225B160E21D4AA43009D1E17 /* vcDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B160D21D4AA43009D1E17 /* vcDetails.swift */; };
+		225B161121D4AA8D009D1E17 /* tvcTopFreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B161021D4AA8D009D1E17 /* tvcTopFreeCell.swift */; };
+		225B161321D4AADD009D1E17 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225B161221D4AADD009D1E17 /* Reference.storyboard */; };
+		225B161721D521B9009D1E17 /* vcNoInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B161521D521B9009D1E17 /* vcNoInternet.swift */; };
+		225B161821D521B9009D1E17 /* vcPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B161621D521B9009D1E17 /* vcPopUp.swift */; };
+		225B161A21D5440C009D1E17 /* TopFreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B161921D5440C009D1E17 /* TopFreeApp.swift */; };
+		225B161C21D54E89009D1E17 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B161B21D54E89009D1E17 /* MyError.swift */; };
+		225B162521D555C4009D1E17 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B161F21D555C3009D1E17 /* Montserrat-ExtraLight.ttf */; };
+		225B162621D555C4009D1E17 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B162021D555C3009D1E17 /* Montserrat-Black.ttf */; };
+		225B162721D555C4009D1E17 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B162121D555C3009D1E17 /* Montserrat-Bold.ttf */; };
+		225B162821D555C4009D1E17 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B162221D555C3009D1E17 /* Montserrat-Light.ttf */; };
+		225B162921D555C4009D1E17 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B162321D555C3009D1E17 /* Montserrat-Regular.ttf */; };
+		225B162A21D555C4009D1E17 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225B162421D555C4009D1E17 /* Montserrat-SemiBold.ttf */; };
+		225B162C21D6A57F009D1E17 /* vcWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B162B21D6A57F009D1E17 /* vcWebView.swift */; };
+		56D88CC8F006D242D7B46D66 /* Pods_Top_Free_Apps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D5D29E1D1D9866DCE00AB /* Pods_Top_Free_Apps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		225B15D721D3D19C009D1E17 /* Top Free Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Free Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225B15DA21D3D19C009D1E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		225B15DC21D3D19C009D1E17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		225B15DF21D3D19C009D1E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		225B15E121D3D19E009D1E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225B15E421D3D19E009D1E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		225B15E621D3D19E009D1E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225B15EE21D3DA76009D1E17 /* Top Free Apps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Top Free Apps-Bridging-Header.h"; sourceTree = "<group>"; };
+		225B15EF21D3DA77009D1E17 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		225B15F021D3DA77009D1E17 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		225B15F321D4A3A7009D1E17 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		225B15F421D4A3A7009D1E17 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		225B15F521D4A3A7009D1E17 /* GradiantColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantColor.swift; sourceTree = "<group>"; };
+		225B15F721D4A3A7009D1E17 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		225B15F821D4A3A7009D1E17 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		225B160521D4A4A2009D1E17 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		225B160921D4A94B009D1E17 /* vcHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcHome.swift; sourceTree = "<group>"; };
+		225B160B21D4AA25009D1E17 /* xibTopFreeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibTopFreeCell.xib; sourceTree = "<group>"; };
+		225B160D21D4AA43009D1E17 /* vcDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcDetails.swift; sourceTree = "<group>"; };
+		225B161021D4AA8D009D1E17 /* tvcTopFreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvcTopFreeCell.swift; sourceTree = "<group>"; };
+		225B161221D4AADD009D1E17 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
+		225B161521D521B9009D1E17 /* vcNoInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcNoInternet.swift; sourceTree = "<group>"; };
+		225B161621D521B9009D1E17 /* vcPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcPopUp.swift; sourceTree = "<group>"; };
+		225B161921D5440C009D1E17 /* TopFreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFreeApp.swift; sourceTree = "<group>"; };
+		225B161B21D54E89009D1E17 /* MyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
+		225B161F21D555C3009D1E17 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		225B162021D555C3009D1E17 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		225B162121D555C3009D1E17 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		225B162221D555C3009D1E17 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		225B162321D555C3009D1E17 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		225B162421D555C4009D1E17 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		225B162B21D6A57F009D1E17 /* vcWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcWebView.swift; sourceTree = "<group>"; };
+		2A11544093F27608FBC2FF7D /* Pods-Top Free Apps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Free Apps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top Free Apps/Pods-Top Free Apps.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7D5D29E1D1D9866DCE00AB /* Pods_Top_Free_Apps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Top_Free_Apps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D427D8B8AC2085B6AE5B09 /* Pods-Top Free Apps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Free Apps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top Free Apps/Pods-Top Free Apps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D88CC8F006D242D7B46D66 /* Pods_Top_Free_Apps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +89,14 @@
 		225B15CE21D3D19C009D1E17 = {
 			isa = PBXGroup;
 			children = (
+				225B161E21D5559C009D1E17 /* Fonts */,
+				225B160021D4A42C009D1E17 /* MVC */,
+				225B15F221D4A37B009D1E17 /* Tools */,
+				225B15EC21D3D1D7009D1E17 /* ThirdParty */,
 				225B15D921D3D19C009D1E17 /* Top Free Apps */,
 				225B15D821D3D19C009D1E17 /* Products */,
+				C0D40E42A5F056FC2FB6CAB7 /* Pods */,
+				9281CA6777EE00A5BC04F2A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +112,162 @@
 			isa = PBXGroup;
 			children = (
 				225B15DA21D3D19C009D1E17 /* AppDelegate.swift */,
-				225B15DC21D3D19C009D1E17 /* ViewController.swift */,
-				225B15DE21D3D19C009D1E17 /* Main.storyboard */,
 				225B15E121D3D19E009D1E17 /* Assets.xcassets */,
-				225B15E321D3D19E009D1E17 /* LaunchScreen.storyboard */,
 				225B15E621D3D19E009D1E17 /* Info.plist */,
 			);
 			path = "Top Free Apps";
+			sourceTree = "<group>";
+		};
+		225B15EC21D3D1D7009D1E17 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				225B15EE21D3DA76009D1E17 /* Top Free Apps-Bridging-Header.h */,
+				225B15ED21D3DA5D009D1E17 /* Reachability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		225B15ED21D3DA5D009D1E17 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				225B15F021D3DA77009D1E17 /* Reachability.h */,
+				225B15EF21D3DA77009D1E17 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		225B15F221D4A37B009D1E17 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				225B161B21D54E89009D1E17 /* MyError.swift */,
+				225B15F421D4A3A7009D1E17 /* AppStoryboard.swift */,
+				225B15F821D4A3A7009D1E17 /* Constants.swift */,
+				225B15F321D4A3A7009D1E17 /* Extentions.swift */,
+				225B15F521D4A3A7009D1E17 /* GradiantColor.swift */,
+				225B15F721D4A3A7009D1E17 /* Tool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		225B15FF21D4A3FF009D1E17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225B15E321D3D19E009D1E17 /* LaunchScreen.storyboard */,
+				225B160321D4A470009D1E17 /* Stories */,
+				225B160421D4A47F009D1E17 /* xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		225B160021D4A42C009D1E17 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				225B160121D4A435009D1E17 /* Modules */,
+				225B15FF21D4A3FF009D1E17 /* Views */,
+				225B160221D4A443009D1E17 /* Controllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		225B160121D4A435009D1E17 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				225B160521D4A4A2009D1E17 /* APIManager.swift */,
+				225B160721D4A4A7009D1E17 /* Entities */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		225B160221D4A443009D1E17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				225B160F21D4AA58009D1E17 /* MyCustomCells */,
+				225B161421D52147009D1E17 /* Reference */,
+				225B160821D4A7B4009D1E17 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		225B160321D4A470009D1E17 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				225B15DE21D3D19C009D1E17 /* Main.storyboard */,
+				225B161221D4AADD009D1E17 /* Reference.storyboard */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		225B160421D4A47F009D1E17 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				225B160B21D4AA25009D1E17 /* xibTopFreeCell.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		225B160721D4A4A7009D1E17 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				225B161921D5440C009D1E17 /* TopFreeApp.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		225B160821D4A7B4009D1E17 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				225B160921D4A94B009D1E17 /* vcHome.swift */,
+				225B160D21D4AA43009D1E17 /* vcDetails.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		225B160F21D4AA58009D1E17 /* MyCustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				225B161021D4AA8D009D1E17 /* tvcTopFreeCell.swift */,
+			);
+			path = MyCustomCells;
+			sourceTree = "<group>";
+		};
+		225B161421D52147009D1E17 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				225B161521D521B9009D1E17 /* vcNoInternet.swift */,
+				225B161621D521B9009D1E17 /* vcPopUp.swift */,
+				225B162B21D6A57F009D1E17 /* vcWebView.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		225B161E21D5559C009D1E17 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				225B162021D555C3009D1E17 /* Montserrat-Black.ttf */,
+				225B162121D555C3009D1E17 /* Montserrat-Bold.ttf */,
+				225B161F21D555C3009D1E17 /* Montserrat-ExtraLight.ttf */,
+				225B162221D555C3009D1E17 /* Montserrat-Light.ttf */,
+				225B162321D555C3009D1E17 /* Montserrat-Regular.ttf */,
+				225B162421D555C4009D1E17 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9281CA6777EE00A5BC04F2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D5D29E1D1D9866DCE00AB /* Pods_Top_Free_Apps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D40E42A5F056FC2FB6CAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A11544093F27608FBC2FF7D /* Pods-Top Free Apps.debug.xcconfig */,
+				90D427D8B8AC2085B6AE5B09 /* Pods-Top Free Apps.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 225B15E921D3D19E009D1E17 /* Build configuration list for PBXNativeTarget "Top Free Apps" */;
 			buildPhases = (
+				DD8F9BC00C3CE9E6A3665C39 /* [CP] Check Pods Manifest.lock */,
 				225B15D321D3D19C009D1E17 /* Sources */,
 				225B15D421D3D19C009D1E17 /* Frameworks */,
 				225B15D521D3D19C009D1E17 /* Resources */,
+				810E2926F2AC9714C04D8ED1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +304,7 @@
 				TargetAttributes = {
 					225B15D621D3D19C009D1E17 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -123,20 +332,85 @@
 			buildActionMask = 2147483647;
 			files = (
 				225B15E521D3D19E009D1E17 /* LaunchScreen.storyboard in Resources */,
+				225B162A21D555C4009D1E17 /* Montserrat-SemiBold.ttf in Resources */,
+				225B162621D555C4009D1E17 /* Montserrat-Black.ttf in Resources */,
+				225B162521D555C4009D1E17 /* Montserrat-ExtraLight.ttf in Resources */,
+				225B162821D555C4009D1E17 /* Montserrat-Light.ttf in Resources */,
 				225B15E221D3D19E009D1E17 /* Assets.xcassets in Resources */,
+				225B162721D555C4009D1E17 /* Montserrat-Bold.ttf in Resources */,
+				225B161321D4AADD009D1E17 /* Reference.storyboard in Resources */,
 				225B15E021D3D19C009D1E17 /* Main.storyboard in Resources */,
+				225B162921D555C4009D1E17 /* Montserrat-Regular.ttf in Resources */,
+				225B160C21D4AA25009D1E17 /* xibTopFreeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		810E2926F2AC9714C04D8ED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Top Free Apps/Pods-Top Free Apps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top Free Apps/Pods-Top Free Apps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8F9BC00C3CE9E6A3665C39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Top Free Apps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		225B15D321D3D19C009D1E17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225B15DD21D3D19C009D1E17 /* ViewController.swift in Sources */,
+				225B161121D4AA8D009D1E17 /* tvcTopFreeCell.swift in Sources */,
+				225B15FA21D4A3A7009D1E17 /* AppStoryboard.swift in Sources */,
+				225B15FB21D4A3A7009D1E17 /* GradiantColor.swift in Sources */,
+				225B161C21D54E89009D1E17 /* MyError.swift in Sources */,
+				225B15F921D4A3A7009D1E17 /* Extentions.swift in Sources */,
+				225B161721D521B9009D1E17 /* vcNoInternet.swift in Sources */,
+				225B161821D521B9009D1E17 /* vcPopUp.swift in Sources */,
+				225B160A21D4A94B009D1E17 /* vcHome.swift in Sources */,
+				225B160621D4A4A2009D1E17 /* APIManager.swift in Sources */,
+				225B160E21D4AA43009D1E17 /* vcDetails.swift in Sources */,
+				225B15FD21D4A3A7009D1E17 /* Tool.swift in Sources */,
+				225B15F121D3DA77009D1E17 /* Reachability.m in Sources */,
+				225B162C21D6A57F009D1E17 /* vcWebView.swift in Sources */,
 				225B15DB21D3D19C009D1E17 /* AppDelegate.swift in Sources */,
+				225B15FE21D4A3A7009D1E17 /* Constants.swift in Sources */,
+				225B161A21D5440C009D1E17 /* TopFreeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +554,10 @@
 		};
 		225B15EA21D3D19E009D1E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A11544093F27608FBC2FF7D /* Pods-Top Free Apps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLNG4UY77L;
 				INFOPLIST_FILE = "Top Free Apps/Info.plist";
@@ -291,6 +567,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TopFreeApps.Top-Free-Apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdParty/Top Free Apps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +576,10 @@
 		};
 		225B15EB21D3D19E009D1E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D427D8B8AC2085B6AE5B09 /* Pods-Top Free Apps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLNG4UY77L;
 				INFOPLIST_FILE = "Top Free Apps/Info.plist";
@@ -309,6 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TopFreeApps.Top-Free-Apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdParty/Top Free Apps-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
