@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+//
 //*****************************************************************
 public func isTextFieldEmpty (_ vUITextField:UITextField) -> Bool{
     return vUITextField.text!.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines) == ""
